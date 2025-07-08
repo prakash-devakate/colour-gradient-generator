@@ -31,5 +31,4 @@ but2.addEventListener("click", clickbtn2);
 navigator.clipboard.writeText(copyCon.innerText);
 copyCon.addEventListener("click", () => {
     navigator.clipboard.writeText(copyCon.innerText) ;
- console.log("it it a click");
 });
